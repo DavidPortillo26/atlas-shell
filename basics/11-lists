@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l
+ls -a atlas-shell/basics atlas-shell/ boot/
