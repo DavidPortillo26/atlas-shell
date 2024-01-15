@@ -1,2 +1,3 @@
 #!/bin/bash
-import os; print(sum([len(dirs) for root, dirs, files in os.walk('.')]))
+import os; print(sum([len(dirs) for root, dirs, files in os.walk('.') if not root.startswith(('.', '..'))]))
+
